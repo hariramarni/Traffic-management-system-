@@ -1,3 +1,4 @@
+# Our team was comparing and contemplating between ultrasonic and hall effect sensor.
 import sys
 import time
 import RPi.GPIO as GPIO
