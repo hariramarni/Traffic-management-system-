@@ -1,3 +1,4 @@
+# First step into learning the uses of the hall effect sensor.
 import RPi.GPIO as gpio
 gpio.setmode(gpio.BCM)
 gpio.setwarnings(False)
