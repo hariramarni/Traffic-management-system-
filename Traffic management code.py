@@ -87,13 +87,13 @@ while True:
        
     if(GPIO.input(hallpin3)==True):
        a3=1
-       print("                   magnet 3")
-       print("                   detected")
+       print("          magnet 3")
+       print("          detected")
     
     if(GPIO.input(hallpin3)==False):
        a3=0
-       print("                   magnet 3")
-       print("                   not detected")
+       print("          magnet 3")
+       print("          not detected")
        
     
        
@@ -101,97 +101,97 @@ while True:
     print("-------------------------------------------------------------------------")
     if(GPIO.input(hallpin11)==True):
        b1=1
-       print("                             magnet 11")
-       print("                             detected")
+       print("          magnet 11")
+       print("          detected")
     
     if(GPIO.input(hallpin11)==False):
        b1=0
-       print("                             magnet 11")
-       print("                             not detected")
+       print("          magnet 11")
+       print("          not detected")
        
     if(GPIO.input(hallpin12)==True):
        b2=1
-       print("                                          magnet 12")
-       print("                                          detected")
+       print("          magnet 12")
+       print("          detected")
     
     if(GPIO.input(hallpin12)==False):
        b2=0
-       print("                                          magnet 12")
-       print("                                          not detected")
+       print("          magnet 12")
+       print("          not detected")
        
     if(GPIO.input(hallpin13)==True):
        b3=1
-       print("                                                       magnet 13")
-       print("                                                       detected")
+       print("          magnet 13")
+       print("          detected")
     
     if(GPIO.input(hallpin13)==False):
        b3=0
-       print("                                                       magnet 13")
-       print("                                                       not detected")
+       print("          magnet 13")
+       print("       not detected")
      
      
     print("--------------------------------------------------------------------------------------------")
     if(GPIO.input(hallpin21)==True):
        c1=1
-       print("                                                           magnet 21")
-       print("                                                           detected")
+       print("         magnet 21")
+       print("         detected")
      
     if(GPIO.input(hallpin21)==False):
        c1=0
-       print("                                                           magnet 21")
-       print("                                                           not detected")
+       print("         magnet 21")
+       print("        not detected")
        
     if(GPIO.input(hallpin22)==True):
        c2=1
-       print("                                                                  magnet 22")
-       print("                                                                  detected")
+       print("         magnet 22")
+       print("          detected")
     
     if(GPIO.input(hallpin22)==False):
        c2=0
-       print("                                                                  magnet 22")
-       print("                                                                  not detected")
+       print("         magnet 22")
+       print("       not detected")
        
     if(GPIO.input(hallpin23)==True):
        c3=1
-       print("                                                                        magnet 23")
-       print("                                                                        detected")
+       print("        magnet 23")
+       print("        detected")
     
     if(GPIO.input(hallpin23)==False):
        c3=0
-       print("                                                                           magnet 23")
-       print("                                                                           not detected")
+       print("        magnet 23")
+       print("      not detected")
        
        
     print("-----------------------------------------------------------------------------------------------")
     if(GPIO.input(hallpin31)==True):
        d1=1
-       print("                                                                                magnet 31")
-       print("                                                                                detected")
+       print("       magnet 31")
+       print("        detected")
      
     if(GPIO.input(hallpin31)==False):
        d1=0     
-       print("                                                                                magnet 31")
-       print("                                                                                not detected")
+       print("        magnet 31")
+       print("     not detected")
        
     if(GPIO.input(hallpin32)==True):
        d2=1
-       print("                                                                                       magnet 32")
-       print("                                                                                       detected")
+       print("      magnet 32")
+       print("       detected")
     
     if(GPIO.input(hallpin32)==False):
        d2=0
-       print("                                                                                       magnet 32")
-       print("                                                                                       not detected")
+       print("      magnet 32")
+       print("   not detected")
        
     if(GPIO.input(hallpin33)==True):
        d3=1
-       print("                                                                                              magnet 33")
-       print("                                                                                              detected")
+       print("     magnet 33")
+       print("      detected")
     
     if(GPIO.input(hallpin33)==False):
        d3=0
-       print("                                                                                              magnet 33")
-       print("                                                                                              not detected")
+       print("    magnet 33") 
+       print(" not detected")
     sum1=a1+a2+a3
     sum2=b1+b2+b3
     sum3=c1+c2+c3
